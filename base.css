@@ -1,0 +1,40 @@
+:root {
+
+    /*CUSTOMIZE THIS FRAMEWORK*/
+    
+    /*FONTS*/
+    --font: serif;
+
+    /*BACKGROUND COLOR*/
+    --primary: rgb(255, 255, 255);
+
+    /*MARQUEE TEXT*/
+    --txt-marquee: grey;
+
+    /*ROTATING CIRCLE IMAGE*/
+    --img-bg-circle: url('bg_circle_1000x1000.svg');  
+
+    /*INFORMATION ICON*/
+    --img-info-icon: url('info_24x24.svg');  
+
+    /*FLIP ICON*/
+    --img-flip-icon: url('flip_24x24.svg');  
+
+    /*FRONT OF CARD IMG*/
+    --img-front-bg-large: url('front_300x160.svg');  
+
+    /*BACK OF CARD IMG*/
+    --img-direx-bg-large: url('back_300x250.svg');
+
+    /*MASTER CONTROL BACKGROUND*/
+    --bg-master: black;
+
+     /*PLAYER CONTROLS*/
+    --img-master-play: url("master_play_45x38.svg");
+    --img-master-stop: url("master_stop_45x38.svg");
+    
+    /*DOWNLOAD IMAGE*/
+    --img-download: url("download__45x38.svg");    
+    
+    /*LOCKED IMAGEk*/
+    --img-purchase:url("lock_45x38.svg");
