@@ -7,8 +7,8 @@ const parts = [
 
     { 
         //update "file" name to match the name of your file
-        file: "Bai-ee_(Acid_Beach)_Dub.wav", 
-        // length: 4, 
+        file: "1.wav", 
+        length: 4, 
         // loop: 1
 
     },

@@ -44,6 +44,7 @@ const loopAnim = gsap.to("#circle", {
 });
 
 //SELECTORS
+
 let blobapath = document.querySelector(".blobAPath");
 let blobBPath = document.querySelector(".blobBPath");
 let blobB= document.querySelector(".blobb");
@@ -76,6 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
   mainTimline();
 
   boxes.onmousewheel = () =>{return false;}
+  // console.log("init scroll");
 });
 
 function initMediaPlayer(){
@@ -125,6 +127,9 @@ function initMediaPlayer(){
       }
     });
 
+    loopInteractions.appendChild(loopUp);
+    loopInteractions.appendChild(loopDown);
+
     const progress = document.createElement("progress");
     progress.className = "previewProgress";
     progress.value = 0;
@@ -150,13 +155,232 @@ function initMediaPlayer(){
       case 1:
         num.innerText = "Loop 1";
         break;
-        num.innerText = "Default";
+      case 2:
+        num.innerText = "Loop 2";
+        break;
+      case 3:
+        num.innerText = "Loop 3";
+        break;
+      case 4:
+        num.innerText = "Loop 4";
+        break;
+      case 5:
+        num.innerText = "Loop 5";
+        break;
+      case 6:
+        num.innerText = "Loop 6";
+        break;
+      case 7:
+        num.innerText = "Loop 7";
+        break;
+      case 8:
+        num.innerText = "Loop 8";
+        break;
+      case 9:
+        num.innerText = "Loop 9";
+        break;
+      case 10:
+        num.innerText = "Loop 10";
+        break;
+      case 11:
+        num.innerText = "Loop 11";
+        break;
+      case 12:
+        num.innerText = "Loop 12";
+        break;
+      case 13:
+        num.innerText = "Loop 13";
+        break;
+      case 14:
+        num.innerText = "Loop 14";
+        break;
+      case 15:
+        num.innerText = "Loop 15";
+        break;
+      case 16:
+        num.innerText = "Loop 16";
+        break;
+      case 17:
+        num.innerText = "Loop 17";
+        break;
+      case 18:
+        num.innerText = "Loop 18";
+        break;
+      case 19:
+        num.innerText = "Loop 19";
+        break;
+      case 20:
+        num.innerText = "Loop 20";
+        break;
+      case 21:
+        num.innerText = "Loop 21";
+        break;
+      case 22:
+      num.innerText = "Loop 22";
+      break;
+      case 23:
+      num.innerText = "Loop 23";
+      break; 
+
+      case 24:
+      num.innerText = "Loop 24";
+      break;
+
+      case 25:
+      num.innerText = "Loop 25";
+      break;
+
+      case 26:
+      num.innerText = "Loop 26";
+      break;
+
+      case 27:
+      num.innerText = "Loop 27";
+      break;
+
+      case 28:
+      num.innerText = "Loop 28";
+      break;
+
+      case 29:
+      num.innerText = "Loop 29";
+      break;
+
+      case 30:
+      num.innerText = "Loop 30";
+      break;
+
+      case 31:
+      num.innerText = "Loop 31";
+      break;
+
+      case 32:
+      num.innerText = "Loop 32";
+      break;
+
+      case 33:
+        num.innerText = "Loop 33";
+        break;
+
+        case 34:
+          num.innerText = "Loop 34";
+          break;
+
+          case 35:
+            num.innerText = "Loop 35";
+            break;
+    
+            case 36:
+              num.innerText = "Loop 36";
+              break;
+ 
+              case 37:
+                num.innerText = "Loop 37";
+                break; 
+                case 38:
+                  num.innerText = "Loop 38";
+                  break;
+                  case 39:
+                    num.innerText = "Loop 39";
+                    break;
+                    case 40:
+                      num.innerText = "Loop 40";
+                      break;
+                      case 41:
+                        num.innerText = "Loop 41";
+                        break;
+                        case 42:
+                          num.innerText = "Loop 42";
+                          break;
+                          case 43:
+                            num.innerText = "Loop 43";
+                            break;
+                            case 44:
+                              num.innerText = "Loop 44";
+                              break;
+                              case 45:
+                                num.innerText = "Loop 45";
+                                break;
+                                case 46:
+                                  num.innerText = "Loop 46";
+                                  break;
+                                  case 47:
+                                    num.innerText = "Loop 47";
+                                    break;
+                                    case 48:
+                                      num.innerText = "Loop 48";
+                                      break;
+                                      case 49:
+                                        num.innerText = "Loop 49";
+                                      break;
+
+                                      case 50:
+                                        num.innerText = "Loop 50";
+                                      break;
+
+                                      case 51:
+                                        num.innerText = "Loop 51";
+                                      break;
+
+
+                                      case 52:
+                                        num.innerText = "Loop 52";
+                                      break;
+
+
+                                      case 53:
+                                        num.innerText = "Loop 53";
+                                      break;
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              num.innerText = "Default";
     }
+
+    box.appendChild(preview);
+    box.appendChild(num);
+    box.appendChild(duration);
+    box.appendChild(progress);
+    box.appendChild(loopContainer);
+    box.appendChild(loopInteractions);
+
+    boxes.appendChild(box);
 
     gsap.set(box, { x: i * boxWidth, width: boxWidth, height: boxHeight });
 
   }
-
+  // console.log("init media Player");
 }
 
 function updateProgress() {
@@ -195,9 +419,12 @@ function mainTimline() {
   tlStageBlock.to("#stageBlock", {duration:2, autoAlpha:0},0);
   tlStageBlock.from("#wrapper", {duration:1, autoAlpha:0}),1;
   tlStageBlock.to("#circle", {duration:2, autoAlpha:1},2.5);
+  // tlStageBlock.to("#preview", {duration:0.25, autoAlpha:0},4.5);
+
   tlStageBlock.to("#header, #presets, #pre2, #boxes_cont, #master_controls, #progress_cont, .marquee, #footer, #slider_cont", {duration:3, stagger:0.35, autoAlpha:1, delay:1, ease:"Power4.easeInOut"},.5);
   tlStageBlock.to("#wrapper", {duration:0.25, height:"100%", width:"100%", ease:"Power1.easeOut"},0);
   tlStageBlock.to('.loader, #wrapper_bg p', {duration:0.25,opacity: 0},0);
+  // tlStageBlock.seek("myLabel");
 
   document.getElementById('wrapper_bg').style.display = "none";
   nudge = null;
@@ -361,3 +588,10 @@ window.addEventListener('resize', () => {
     initialSliderPositionAndBounds();
   })
 })
+
+
+
+
+
+
+

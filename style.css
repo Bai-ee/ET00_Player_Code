@@ -662,6 +662,7 @@ p {
   flex-direction: column;
   align-content: center;
   justify-content: flex-start;
+  max-height:0px;
 }
 
 #cont_slider_boxes {
