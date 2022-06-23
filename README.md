@@ -1,8 +1,10 @@
 # TEIA Download Standard
 
-Create an interactive music NFT that verifies ownership and unlocks access to a downloadable .wav file when viewed from within an interactive marketplace on the Tezos Blockchain.
+Use this repo to create an interactive music NFT that verifies ownership and unlocks access to a downloadable .wav file when viewed from within an interactive marketplace on the Tezos Blockchain.
 
-SEE EXAMPLE::
+SEE EXAMPLE:
+
+<img src="https://gateway.pinata.cloud/ipfs/QmcRKTv6PX4zEM114RAnoDX6ukvxcVdxcsSA2bvG96Bbuu" />
 
 # Create Your Own 
 
@@ -29,19 +31,20 @@ Collaborations between creative coders/Front End Developers, visual artists and 
 • GREENSOCK.JS
 • TZKT.API
 
-### Restrictions
-
-<img src="https://gateway.pinata.cloud/ipfs/QmcRKTv6PX4zEM114RAnoDX6ukvxcVdxcsSA2bvG96Bbuu" />
-
-## Tech
-
-$ HTML5/CSS/JS
-$ Tone.js
-$ Greensock.js
-
 ## Additional Documentation and Acknowledgments
 
 * EditTrax.nft = Decentralized Web
 * EditTrax.wiki = Live Updates
 * EditTrax.io = Marketplace
+
+## Development Resources
+
+* [TEIA.art](https://github.com/teia-community/teia-docs/wiki/Interactive-OBJKTs)
+* [Beyond NFT](https://github.com/BeyondNFT/sandbox)
+
+## More Information
+
+* EditTrax = Ecosystem Coming Soon
+* [EditTrax.wiki](https://EditTrax.wiki) = Live Updates
+* [EditTrax.nft](https://EditTrax.com) = Decentralized Web
 
