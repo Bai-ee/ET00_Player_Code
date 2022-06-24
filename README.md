@@ -71,4 +71,4 @@ Contact [EditTrax](https://calendly.com/bai-ee/30min?month=2022-06)<br>
 
 # Support
 
-[BAI-EE](https://tell.ie/bai-eei) @ [bai-ee.tez](https://EditTrax.com)
+[BAI-EE](https://tell.ie/bai_ee) @ [bai-ee.tez](https://EditTrax.com)
