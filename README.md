@@ -3,7 +3,7 @@
 This HTML5/CSS/JS framework includes download logic used within [EditTrax](https://teia.art/objkt/612561) Interactive Music NFTs. Built to existing TEIA.art platform standards it provides a token gated experience that can be minted/unlocked within the following marketplace/enviroments:
 <br>
 
-<img src="https://gateway.pinata.cloud/ipfs/QmcRKTv6PX4zEM114RAnoDX6ukvxcVdxcsSA2bvG96Bbuu" />
+<img src="https://gateway.pinata.cloud/ipfs/QmWyDbiLAujvszhfkriiQ8pf7Tif3oShAEZDWVUrzRkvSn"/>
 <br><br>
 
 ## Live Preview:<br><br>
@@ -18,9 +18,10 @@ This HTML5/CSS/JS framework includes download logic used within [EditTrax](https
 
 [Teia.art](https://teia.art/)<br>
 [Objkt.com](https://objkt.com/)<br>
-[Minterverse.io](https://minterverse.io/)<br>
 [Hic.af](https://hic.af/)<br>
+[Versum.xyz](https://objkt.com/)<br>
 <br>
+
 
 ### LOW CODE 
 <br>
