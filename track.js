@@ -1,4 +1,6 @@
 const trackDir = "";
+
+//for the stop button to display at the end of your track preview, update the BPM to whatever your track is
 const bpm = 120;
 
 const parts = [
@@ -6,7 +8,8 @@ const parts = [
     { 
         //update "file" name to match the name of your file
         file: "track.wav", 
-        length: 4, 
+        //for the stop button to display at the end of your track preview, update the length, 1 = 4 beats
+        length: 2, 
     },
 ];
 
