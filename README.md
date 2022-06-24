@@ -1,50 +1,68 @@
 # TEIA Download Standard
 
-Use this repo to create an interactive music NFT that verifies ownership and unlocks access to a downloadable .wav file when viewed from within an interactive marketplace on the Tezos Blockchain.
-
-SEE EXAMPLE:
+This HTML5/CSS/JS framework includes download logic used within [EditTrax](https://teia.art/objkt/612561) Interactive Music NFTs. Built to existing TEIA.art platform standards it provides a token gated experience that can be minted/unlocked within the following marketplace/enviroments:
+<br>
 
 <img src="https://gateway.pinata.cloud/ipfs/QmcRKTv6PX4zEM114RAnoDX6ukvxcVdxcsSA2bvG96Bbuu" />
+<br><br><br>
 
+## Live Preview:
+<br><br>
 # Create Your Own 
 
-### NO CODE customization
+### NO CODE 
+<br>
+1) Download this repo as a .zip file<br>
+2) Open and replace the existing .wav file "track.wav" with your own file labeled "track.wav"<br>
+3) Compress the folder and upload it as a .zip file when creating Interactive NFTs on platforms:<br><br>
 
-1) Download this repo as a .zip file
-2) Replace the existing .wav file "track.wav" with your own file labeled "track.wav"
-3) Compress folder and upload as a .zip file when creating NFTs on platforms like: <br>Objkt.io, Teia.art, Hic.af, Minterverse.io 
+[Teia.art](https://teia.art/)<br>
+[Objkt.com](https://objkt.com/)<br>
+[Minterverse.io](https://minterverse.io/)<br>
+[Hic.af](https://hic.af/)<br>
+<br>
 
-### LOW CODE customization
+### LOW CODE 
+<br>
+1) All content can be customized by updating images in the folder (retain naming conventions)<br>
+2) Further customization is possible when editing the values in base.css via a code editor<br>
+3) Create unique names for downloadable .wavs updating track.js<br>
+<br>
 
-1) All content can be customized by updating images
-2) Further customization is accessible via code in base.css
-3) Create unique names for downloadable content in track.js
+### CODE CUSTOMIZATIONS
+<br>
 
-### ADVANCED customization
+Experiment, collaborate with or hire a front end dev to realize the full potential of this framework. Use it as a starting point leveraging its download mechanism and audio framework (tone.js). Collaborate with creative coders, visual artists and music producers to create a collectible experience for your next music single.
 
-Collaborations between creative coders/Front End Developers, visual artists and music producers are encouraged to realize the full potential of this framework.
 
-## Tech Stack
+<br>
+*To preview visual changes you can double-click on index.html directly from the folder<br>
+**To preview audio requires opening a live server from within a text editor like Visual Studio Code<br>
+***You can alternatively hear the audio when previewing this as an NFT, at the time of mint
 
-• HTML5/CSS/JS
-• TONE.JS
-• GREENSOCK.JS
-• TZKT.API
+<br><br>
 
-## Additional Documentation and Acknowledgments
+# Tech Stack
 
-* EditTrax.nft = Decentralized Web
-* EditTrax.wiki = Live Updates
-* EditTrax.io = Marketplace
+[HTML5/CSS/JS](https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript)<br>
+[Tone.js](https://tonejs.github.io/)<br>
+[Greensock.js](https://greensock.com/)<br>
+[Tzkt.api](https://tzkt.io/)<br>
 
-## Development Resources
+<br>
+Build Resources:<br><br>
 
-* [TEIA.art](https://github.com/teia-community/teia-docs/wiki/Interactive-OBJKTs)
-* [Beyond NFT](https://github.com/BeyondNFT/sandbox)
+[TEIA.art (Interactive OBJKT) GitHub](https://github.com/teia-community/teia-docs/wiki/Interactive-OBJKTs)<br>
+[Beyond NFT GitHub](https://github.com/BeyondNFT/sandbox)<br>
+<br>
+<br>
 
-## More Information
+# More Information
 
-* EditTrax = Ecosystem Coming Soon
-* [EditTrax.wiki](https://EditTrax.wiki) = Live Updates
-* [EditTrax.nft](https://EditTrax.com) = Decentralized Web
+Whats [EditTrax](https://EditTrax.wiki)<br>
+Contact [EditTrax](https://calendly.com/bai-ee/30min?month=2022-06)<br>
+<br><br>
 
+# Support
+
+[BAI-EE](https://tell.ie/bai-eei) @ [bai-ee.tez](https://EditTrax.com)
