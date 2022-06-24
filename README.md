@@ -39,6 +39,12 @@ Experiment, collaborate with or hire a front end dev to realize the full potenti
 *To preview visual changes you can double-click on index.html directly from the folder<br>
 **To preview audio requires opening a live server from within a text editor like Visual Studio Code<br>
 ***You can alternatively hear the audio when previewing this as an NFT, at the time of mint
+<br><br>
+
+### DISCLAIMER
+<br>
+
+This repo represent an experiment in independent music distribution, a public resource to explore and develop into a secure standard that can be adopted across 3rd party marketplaces, and within creators own independent web applications. EditTrax and Bai-ee are not responsible for how this repo is used by the pubic and urges everyone to have good wallet hygine when collecting interactive OBJKTs.
 
 <br><br>
 
