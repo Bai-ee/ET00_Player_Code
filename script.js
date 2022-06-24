@@ -24,8 +24,6 @@ let presetElements = [];
 let elements = [];
 
 document.addEventListener("DOMContentLoaded", () => {
-    // presetElements = document.querySelectorAll(".preset");
-    // elements = document.querySelectorAll(".loopinteraction");
 
     for (var i = 0, presetElement; presetElement = presetElements[i]; i++) {
         presetElement.addEventListener('click', function() {
@@ -382,16 +380,10 @@ function pointerEventsOff(){
 
 function preview() {
     pointerEventsOff()
-    // gsap.to("#content", {duration:0.5, y:"-=10"})
-    // Tone.Transport.start()
-    // console.log("preview toggle available");
 }
 
 function stopPreview() {
     pointerEventsOff()
-    // gsap.to("#content", {duration:0.5, y:"+=10"})
-    // Tone.Transport.stop()
-    // console.log("preview toggle disabled");
 }
 
 document.getElementById("preview").addEventListener("mouseover", preview);
@@ -412,71 +404,25 @@ function toggle() {
 
         pointerEventsOff();
 
-        // console.log("if");
-        // console.log(testBool);
-        // console.log(showDirections);
-
-
         gsap.set("#flipMe", {pointerEvents:"none", autoAlpha:0, visibility:"hidden"});
-
-        // pointerEventsOff();
-        // console.log("else if")
-        // gsap.set(".flipMePointer", {pointerEvents:"none"});
         gsap.to("#flipMe_return", {duration:0, autoAlpha:0});
 
         tlFlipCard.play();
         gsap.set("#content_back_img", {autoAlpha:0});  
         gsap.set("#content_back_img_direx", {autoAlpha:1});  
         gsap.to("#flipMe_return_direx", {duration:0.5, opacity:1, delay:.5,visibility:"visible", onComplete:pointerEventsOn});
-
-
-
-        // gsap.set("#flipMe", {visibility:"hidden"});
-        // console.log("toggle 1");
-        // gsap.set(".flipMePointer", {pointerEvents:"none"});
-        // tlFlipCard.play();
-        // gsap.set("#content_back_img", {autoAlpha:1});
-        // // gsap.to("#flipMe", {duration:0.5, opacity:1, delay:delay,visibility:"visible"});
-        // gsap.fromTo("#content_back_img, #flipMe_return", {opacity:0, autoAlpha:0,y:0,visibility:"visible"},{duration:1, autoAlpha:1,y:0, opacity:1, delay:0.5,ease: "Power1.easeOut"});
-        // showDirections = true;
-
     } 
     else if ((testBool == true) && (showDirections == true)) {
-
-        // console.log("else if");
-        // console.log(testBool);
-        // console.log(showDirections);
-
-        // console.log("toggle 2");
-        // gsap.set("#flipMe", {visibility:"visible"});
-        // pointerEventsOff();
-        // // console.log("else if")
-        // gsap.set(".flipMePointer", {pointerEvents:"none"});
-        // gsap.to("#flipMe_return", {duration:0.5, autoAlpha:0});
-
-        // tlFlipCard.play();
-        // gsap.set("#content_back_img", {autoAlpha:0});  
-        // gsap.set("#content_back_img_direx", {autoAlpha:1});  
-        // gsap.to("#flipMe_return_direx", {duration:0.5, delay:delay, autoAlpha:1});
-
-        // gsap.to("#flipMe", {opacity:0, visibility:"hidden"});
-
 
     } 
     else {
 
         pointerEventsOff();
-
-        // console.log("else");
-        // console.log(testBool);
-        // console.log(showDirections);
-
         gsap.set("#flipMe_return_direx", {pointerEvents:"none", autoAlpha:0, visibility:"hidden"});
 
         gsap.set("#flipMe", {visibility:"visible"});
         console.log("toggle 3");
         pointerEventsOff();
-        // gsap.set(".flipMePointer", {pointerEvents:"auto"});
 
         gsap.to("#flipMe", {duration:0.5, opacity:1, delay:.5,visibility:"visible", onComplete:pointerEventsOn});
         tlFlipCard.reverse();
@@ -484,7 +430,6 @@ function toggle() {
     
     testBool = !testBool;
 }
-
 
 downloadButton.onclick = function () {
     render();
@@ -497,8 +442,6 @@ function makeDownload(buffer) {
     downloadLink.href = newFile;
     downloadLink.download = downloadName;
 }
-
-
 
 //HICETNUNC VERIFICATION
 
@@ -533,25 +476,8 @@ function validateToken(viewer, objkt){
     .catch(err => console.log('error', err));
   }
   
-  // setInterval(() => {
-  //   const progress = Tone.Transport.ticks / Tone.Time(totalLength()).toTicks();
-  //   const width = Math.floor(progress * 300);
-  //   // document.getElementById("progress").style.width = width + 'px';
-  
-  //   if (playerStartTime > 0) {
-  //       const previewWidth = Math.floor(previewProgress() * 100);
-  //       previewProgressElement.style.width = previewWidth + '%';
-  //   }
-    
-  
-  // }, 16);
-  
-        console.log(viewer + " viewer")
-        console.log(objkt + " objkt")
-  
-
-
-
+console.log(viewer + " viewer")
+console.log(objkt + " objkt")
 
 const progressElem_curr = document.getElementById('progress_current');
 const progressElem = document.getElementById("progress");
@@ -563,8 +489,6 @@ setInterval(() => {
     let seconds = trackDuration() * progress;
 
     if(Number.isFinite(width)){
-        // progressElem_curr.innerHTML = formatDuration(seconds);
-        // progressElem.value = width;
 
         let loopDuration = mainLoopDuration();
         var current = 0;

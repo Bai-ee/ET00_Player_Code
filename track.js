@@ -1,5 +1,3 @@
-
-
 const trackDir = "";
 const bpm = 120;
 
@@ -7,10 +5,8 @@ const parts = [
 
     { 
         //update "file" name to match the name of your file
-        file: "1.wav", 
+        file: "track.wav", 
         length: 4, 
-        // loop: 1
-
     },
 ];
 
@@ -19,4 +15,5 @@ presets.push([1,]);
 const boxHeight = 50;
 const reverseScrolling = false;
 
-const downloadName = "downloadable.wav"
+//update "downloadName" to match the name of your file
+const downloadName = "track.wav"

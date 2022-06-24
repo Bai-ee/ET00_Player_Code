@@ -4,10 +4,10 @@ This HTML5/CSS/JS framework includes download logic used within [EditTrax](https
 <br>
 
 <img src="https://gateway.pinata.cloud/ipfs/QmcRKTv6PX4zEM114RAnoDX6ukvxcVdxcsSA2bvG96Bbuu" />
-<br><br><br>
-
-## Live Preview:
 <br><br>
+
+## Live Preview:<br><br>
+
 # Create Your Own 
 
 ### NO CODE 
@@ -32,7 +32,7 @@ This HTML5/CSS/JS framework includes download logic used within [EditTrax](https
 ### CODE CUSTOMIZATIONS
 <br>
 
-Experiment, collaborate with or hire a front end dev to realize the full potential of this framework. Use it as a starting point leveraging its download mechanism and audio framework (tone.js). Collaborate with creative coders, visual artists and music producers to create a collectible experience for your next music single.
+Experiment, collaborate with or hire a front end dev to realize the full potential of this framework. Use it as a starting point leveraging its download mechanism and audio framework (tone.js). Collaborate with creative coders, visual artists and music producers to create a collectible experience for your next track release.
 
 
 <br>
