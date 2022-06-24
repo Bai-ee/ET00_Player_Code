@@ -44,8 +44,7 @@ Experiment, collaborate with or hire a front end dev to realize the full potenti
 ### DISCLAIMER
 <br>
 
-This repo represent an experiment in independent music distribution, a public resource to explore and develop into a secure standard that can be adopted across 3rd party marketplaces, and within creators own independent web applications. EditTrax and Bai-ee are not responsible for how this repo is used by the pubic and urges everyone to have good wallet hygine when collecting interactive OBJKTs.
-
+This repo provides elevated UX for cross-device music streaming and the right click download experience. Bai-ee/EditTrax is not responsible for how this repo is used by the pubic and urges everyone to have good wallet hygiene when collecting NFTS. DO NOT consider the content placed within this experience secured and inaccessible. It can be downloaded regardless of ownership when viewing the network tab in developer tools. This repo has been integrated within a more robust tone.js experience in the [Alpha Test EditTrax player](https://edittrax.live), which renders tracks in real time and eliminates the aforementioned issue. We look forward to work with you to continue solving issues around independent music distribution, creative accessibility, security and UX.
 <br><br>
 
 # Tech Stack
