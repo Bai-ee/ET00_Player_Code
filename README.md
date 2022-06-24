@@ -45,7 +45,7 @@ Experiment, collaborate with or hire a front end dev to realize the full potenti
 ### DISCLAIMER
 <br>
 
-This repo provides elevated UX for cross-device music streaming and the right click download experience. Bai-ee/EditTrax is not responsible for how this repo is used by the pubic and urges everyone to have good wallet hygiene when collecting NFTS. DO NOT consider the content placed within this experience secured and inaccessible. It can be downloaded regardless of ownership when viewing the network tab in developer tools. The trick is to integrate this feature into a more robust tone.js experience. EXAMPLE: The [Alpha Test EditTrax player](https://objkt.com/asset/hicetnunc/612561) takes loops and renders a full track in real time at the time of download via tone.js, eliminating the aforementioned issues.
+Bai-ee/EditTrax is not responsible for how this repo is used by the public and urges everyone to have good wallet hygiene when collecting NFTS. This repo provides elevated UX for cross-device music streaming and a right click download experience. DO NOT consider the content placed within this nft secured and inaccessible. It can be downloaded regardless of ownership when viewing the network tab in developer tools. The trick is to integrate the download feature into a more robust tone.js experience. EXAMPLE: The [Alpha Test EditTrax player](https://objkt.com/asset/hicetnunc/612561) renders loops in a full track at the time of download, eliminating the aforementioned issue.
 <br><br>
 
 # Tech Stack
